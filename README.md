@@ -1,24 +1,27 @@
-##1. WriteaJavaScriptfunctiontakesastringandreturnanewstringwithall vowels removed.
+## 1. WriteaJavaScriptfunctiontakesastringandreturnanewstringwithall vowels removed.
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-##2. Usingyourknowledgetomakethebelowcodebetter:
-   const sql = require('mssql');
-   const connectionString = 'some-cnn-string';
-   const query1 = 'some-query-1';
-   const query2 = 'some-query-2';
-   const query3 = 'some-query-3';
-   module.exports = {
-getAccountId: function(apiKey, cb) { sql.connect(connectionString, (connection)=>{
-            connection.query(query1, (result)=>{
-                console.log(result1);
-                connection.query(query2, { ...result1 }, (result)=>{
-                    console.log(result2);
-                    connection.query(query3, { ...result2 },
-                        console.log(result3);
-                    })
-}) });
-}) }
-};
-##3. Implementanapplicationcalled“MarvelManager”thathas
+
+## 2. Usingyourknowledgetomakethebelowcodebetter:
+   ```javascript
+      const sql = require('mssql');
+      const connectionString = 'some-cnn-string';
+      const query1 = 'some-query-1';
+      const query2 = 'some-query-2';
+      const query3 = 'some-query-3';
+      module.exports = {
+      getAccountId: function(apiKey, cb) { sql.connect(connectionString, (connection)=>{
+                  connection.query(query1, (result)=>{
+                      console.log(result1);
+                      connection.query(query2, { ...result1 }, (result)=>{
+                          console.log(result2);
+                          connection.query(query3, { ...result2 },
+                              console.log(result3);
+                          })
+      }) });
+      }) }
+      };
+   ```
+## 3. Implementanapplicationcalled“MarvelManager”thathas
 - A Home Page that lists all Marvel’s characters in 3 columns: Name,
 Description (if available, limit to 100 letters) and Thumbnail. The data
 (result)=>{
