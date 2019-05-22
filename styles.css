@@ -1,0 +1,25 @@
+#wrapper {
+    text-align:center;
+}
+textarea {
+    padding: 5px;
+    min-width: 300px;
+    width: 500px;
+}
+pre {
+    background: #ddd;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    background: blue;
+    color: #fff;
+    padding: 5px 10px;
+    width: 100px;
+    cursor: pointer;
+}
