@@ -1,7 +1,7 @@
-## 1. WriteaJavaScriptfunctiontakesastringandreturnanewstringwithall vowels removed.
+## 1. Write a JavaScript function takes a string and return a new string with all vowels removed.
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
-## 2. Usingyourknowledgetomakethebelowcodebetter:
+## 2. Using your knowledge to make the below code better:
    ```javascript
       const sql = require('mssql');
       const connectionString = 'some-cnn-string';
@@ -21,7 +21,7 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
       }) }
       };
    ```
-## 3. Implementanapplicationcalled“MarvelManager”thathas
+## 3. Implement an application called “MarvelManager” that has
 - A Home Page that lists all Marvel’s characters in 3 columns: Name,
 Description (if available, limit to 100 letters) and Thumbnail. The data
 (result)=>{
