@@ -21,7 +21,7 @@
    ```
 ### After
 
-```
+```javascript
 
 const sql = require('mssql');
 const connectionString = 'some-cnn-string';
