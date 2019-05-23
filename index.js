@@ -6,7 +6,7 @@ const query1 = 'some-query-1';
 const query2 = 'some-query-2';
 const query3 = 'some-query-3';
 
-function getElementById() {
+function getAccountId() {
     sql.connect(connectionString).then(() => {
         return sql.query(query1)
     }).then(result1 => {
@@ -23,5 +23,5 @@ function getElementById() {
 }
 
 module.exports = {
-    getElementById,
+    getAccountId,
 };
