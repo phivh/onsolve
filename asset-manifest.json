@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/onsolve/static/css/main.b1883070.chunk.css",
+    "main.js": "/onsolve/static/js/main.3d3bb4c3.chunk.js",
+    "main.js.map": "/onsolve/static/js/main.3d3bb4c3.chunk.js.map",
+    "runtime~main.js": "/onsolve/static/js/runtime~main.5b61c987.js",
+    "runtime~main.js.map": "/onsolve/static/js/runtime~main.5b61c987.js.map",
+    "static/js/2.09d236f1.chunk.js": "/onsolve/static/js/2.09d236f1.chunk.js",
+    "static/js/2.09d236f1.chunk.js.map": "/onsolve/static/js/2.09d236f1.chunk.js.map",
+    "static/css/3.c2a69d58.chunk.css": "/onsolve/static/css/3.c2a69d58.chunk.css",
+    "static/js/3.4473c590.chunk.js": "/onsolve/static/js/3.4473c590.chunk.js",
+    "static/js/3.4473c590.chunk.js.map": "/onsolve/static/js/3.4473c590.chunk.js.map",
+    "index.html": "/onsolve/index.html",
+    "precache-manifest.d6060c96ffb978d9025677727b09f8ba.js": "/onsolve/precache-manifest.d6060c96ffb978d9025677727b09f8ba.js",
+    "service-worker.js": "/onsolve/service-worker.js",
+    "static/css/3.c2a69d58.chunk.css.map": "/onsolve/static/css/3.c2a69d58.chunk.css.map",
+    "static/css/main.b1883070.chunk.css.map": "/onsolve/static/css/main.b1883070.chunk.css.map",
+    "static/media/marvel-logo.jpg": "/onsolve/static/media/marvel-logo.e01a7139.jpg"
+  }
+}
