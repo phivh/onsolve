@@ -1,7 +1,7 @@
 {
   "name": "mavel-manager",
   "version": "0.1.0",
-  "author": "Phivh <phivhdev@gmail.com>",
+  "author": "Phivh<phivhdev@gmail.com>",
   "private": true,
   "engines": {
     "node": "10.15.3"
@@ -11,7 +11,7 @@
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
