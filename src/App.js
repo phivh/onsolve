@@ -1,6 +1,6 @@
 import React, {lazy, Suspense} from 'react';
 import Header from "./components/Header";
-import Main from "./containers/main";
+import Home from "./containers/homeContainer";
 import {  BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Suspense fallback={<div>loading...</div>}>
             <Header />
-            <Main />
+            <Route path='/:page?' component={Home} />
             <Route path="/detail/:id" render={(props) => <DetailLazy {...props} />} />
         </Suspense>
       </div>

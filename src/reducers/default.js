@@ -1,11 +1,8 @@
 const defaultStore = {
-    fetching: true,
+    fetching: false,
     pagination: { current: 1, total: 0, pages: [], next: false, prev: false },
     filter: 'comics',
-    search: '',
-    started: true,
-    error: { code: '' },
-    menuOpen: false,
+    started: false,
     data: []
 };
 

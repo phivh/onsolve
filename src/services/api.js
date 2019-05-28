@@ -6,19 +6,18 @@ class Api {
     this.publicKey = configs.publicKey;
     this.timeout = 10000;
     this.options = {
-      limit: 25,
-      offset: 0,
-      url: configs.baseUrl
+      limit: 5,
+      offset: 0
     };
 
     this.instance = axios.create({
-      baseURL: configs.baseUrl,
+      baseURL: `${configs.baseUrl}`,
       timeout: this.timeout
     });
   }
 
   appendParameters(url, options) {
-    let { page, orderBy, titleStartsWith, nameStartsWith } = options;
+    let { page, orderBy } = options;
     let fetchUrl = `${url}?apikey=${this.publicKey}`;
 
     this.options.offset = 0;
@@ -28,20 +27,17 @@ class Api {
       this.options.offset = page * this.options.limit;
     }
 
-    // let mergedOptions = Object.assign({}, { orderBy }, this.options);
+    let mergedOptions = Object.assign({}, { orderBy }, this.options);
 
-    // mergedOptions = titleStartsWith ? Object.assign({}, { titleStartsWith }, mergedOptions) : mergedOptions;
-    // mergedOptions = nameStartsWith ? Object.assign({}, { nameStartsWith }, mergedOptions) : mergedOptions;
-
-    // for (let option in mergedOptions) {
-    //   fetchUrl += `&${option}=${mergedOptions[option]}`;
-    // }
+    for (let option in mergedOptions) {
+      fetchUrl += `&${option}=${mergedOptions[option]}`;
+    }
 
     return fetchUrl;
   }
 
-  get() {
-    return this.instance.get(this.appendParameters("comics", {limit:25}))
+  get(options) {
+    return this.instance.get(this.appendParameters(options.url, options))
       .then((resolve) => {
         return resolve;
       }, (reject) => {

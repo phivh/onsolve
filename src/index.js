@@ -9,16 +9,15 @@ import defaultStore from './reducers/default';
 import Api from './services/api';
 import history from "./reducers/history";
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
-
-
 
 const api = new Api();
 
-const store = createStore(RootReducer(history), defaultStore, applyMiddleware(routerMiddleware(history), thunk.withExtraArgument(api.get())) );
+export const appStore = createStore(RootReducer(history), defaultStore, applyMiddleware(routerMiddleware(history), thunk.withExtraArgument(api)) );
 
 ReactDOM.render(
-    <Provider store={store}>
+    <Provider store={appStore}>
         <App />
     </Provider>, 
     document.getElementById('root'));
