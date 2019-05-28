@@ -1,8 +1,11 @@
 {
   "name": "mavel-manager",
   "version": "0.1.0",
-  "author": "Phivh<phivhdev@gmail.com>",
+  "author": "Phivh <phivhdev@gmail.com>",
   "private": true,
+  "engines": {
+    "node": "10.15.3"
+  },
   "dependencies": {
     "@material-ui/core": "^4.0.0",
     "axios": "^0.18.0",
@@ -14,6 +17,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "connected-react-router": "^6.4.0",
+    "gh-pages": "^2.0.1",
     "history": "^4.9.0",
     "marvel-api": "^1.1.0",
     "prop-types": "^15.7.2",
@@ -37,7 +41,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,5 +58,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage" : "https://phivh.github.io/onsolve"
 }

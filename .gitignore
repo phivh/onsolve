@@ -94,3 +94,5 @@ typings/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
+build/
