@@ -16,7 +16,7 @@ const api = new Api();
 
 export const appStore = createStore(RootReducer(history), defaultStore, applyMiddleware(routerMiddleware(history), thunk.withExtraArgument(api)) );
 
-ReactDOM.render(
+ReactDOM.render( 
     <Provider store={appStore}>
         <App />
     </Provider>, 

@@ -1,7 +1,8 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, './src/index.js'),
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'build'),
@@ -16,7 +17,8 @@ const config = {
     port: 3000,
     historyApiFallback: true,
     disableHostCheck: true,
-    contentBase: 'public',
+    contentBase: path.join(__dirname, 'public')
+    
   },
 
   module: {
@@ -27,11 +29,18 @@ const config = {
         use: [
           {
             loader: 'babel-loader'
-          }
+          },
+          'file-loader?name=[name].[ext]'
         ]
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Marvel Manager',
+      template: path.join(__dirname, './public/index.html')
+    }),
+  ]
 };
 
 module.exports = config;
