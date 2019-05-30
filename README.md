@@ -23,3 +23,6 @@ Nice to have:
 items, press ENTER to access)
 - Deploy your app on a live server & send us URL
 - CI/CD implemented
+
+## Marvel Manager - Listing All Comics Marvel
+

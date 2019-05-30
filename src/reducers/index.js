@@ -1,5 +1,6 @@
 import fallbackThumb from "../assets/images/missing-full.jpg";
 function data(state = [], action) {
+  // eslint-disable-next-line
     switch (action.type) {
       case "FETCHING":
         return [];

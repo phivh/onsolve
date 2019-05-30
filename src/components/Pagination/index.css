@@ -27,11 +27,14 @@
     transition: background-color .2s;
     width: auto;
     z-index: 1;
+    border-radius: 5px;
 }
 .pagination__link--active {
     background-color: #ea2228;
     z-index: 2;
-    border-radius: 5px;
+}
+.pagination__link:hover {
+    background-color: #ea2228;
 }
 .pagination__prev, .pagination__next {
     display: block;

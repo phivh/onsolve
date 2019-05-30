@@ -1,0 +1,9 @@
+language: node_js
+rvm:
+ - 2.2
+ - jruby
+
+jobs:
+  include:
+    - stage: test
+      script: ./App.test.js 1

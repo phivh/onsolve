@@ -1,5 +1,6 @@
 
 function fetching(state = false, action) {
+  // eslint-disable-next-line
   switch (action.type) {
     case "FETCHING":
       return true;
