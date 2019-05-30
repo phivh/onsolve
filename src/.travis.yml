@@ -7,3 +7,7 @@ jobs:
   include:
     - stage: test
       script: ./App.test.js 1
+
+branches:
+  only:
+    - marvelmanager
