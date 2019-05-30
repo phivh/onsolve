@@ -1,7 +1,7 @@
 language: node_js
-rvm:
- - 2.2
- - jruby
+cache: npm
+node_js:
+- '10'
 
 jobs:
   include:
