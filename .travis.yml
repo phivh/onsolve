@@ -6,7 +6,7 @@ node_js:
 jobs:
   include:
     - stage: test
-      script: ./App.test.js 1
+      script: ./App.test.js
 
 branches:
   only:
