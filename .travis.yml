@@ -7,12 +7,3 @@ install:
   
 scripts:
   - npm test
-
-jobs:
-  include:
-    - stage: test
-      script: ./App.test.js
-
-branches:
-  only:
-    - marvelmanager
