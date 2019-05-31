@@ -2,7 +2,8 @@
 
 > The project is built to demonstrate my knowledge in ReactJS and other compliment stuffs such as Redux, Material UI, Travis-CI and how I as a FrontEnd Developer structure an application with difference features and components.
 
-- Video demo: [![Marvel API](http://img.youtube.com/vi/Cr8Dp1N9duw/0.jpg)](http://www.youtube.com/watch?v=Cr8Dp1N9duw "Marvel Manager - ReactJs App")
+- Video demo: 
+[![Marvel API](http://img.youtube.com/vi/Cr8Dp1N9duw/0.jpg)](http://www.youtube.com/watch?v=Cr8Dp1N9duw "Marvel Manager - ReactJs App")
 - Link Demo: [Heroku Host](https://onsolve-marvelmanager.herokuapp.com/1)
 
 
