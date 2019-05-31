@@ -24,7 +24,7 @@ export function fetch(options) {
       dispatch(reject);
 
     }).catch(function (reason) {
-      dispatch(reason);
+      //dispatch(reason);
     })
   };
 }
