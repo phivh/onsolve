@@ -34,8 +34,8 @@ Jest will look for test files with any of the following popular naming conventio
 
 >This project was based on Create React App.
 
-## Implement an application called “MarvelManager” that has
-___
+### Implement an application called “MarvelManager” that has
+
 1. A Home Page that lists all Marvel’s characters in 3 columns: Name,
 Description (if available, limit to 100 letters) and Thumbnail. The data
 (result)=>{ given by Marvel Comics API (see below to know how to use Marvel Comics API)
@@ -51,12 +51,12 @@ Here is a mockup (just sample)
 - Get public/private keys and having a look at this URL to understand how to call the APIs: [https://developer.marvel.com/docs](https://developer.marvel.com/docs)
 
 4. Nice to have:
-[x] Beautiful UI design/ Responsive design using UI framework and libs (Bootstrap, PureCSS...)
-[x] Working well on multi-browsers
-[x] Pagination OR infinite loading on Home page
-[x] Can use keyboard to navigate (TAB & SHIFT-TAB to move between items, press ENTER to access)
-[x] Deploy your app on a live server & send us URL
-[x] CI/CD implemented
+- [x] Beautiful UI design/ Responsive design using UI framework and libs (Bootstrap, PureCSS...)
+- [x] Working well on multi-browsers
+- [x] Pagination OR infinite loading on Home page
+- [x] Can use keyboard to navigate (TAB & SHIFT-TAB to move between items, press ENTER to access)
+- [x] Deploy your app on a live server & send us URL
+- [x] CI/CD implemented
 
 
 
